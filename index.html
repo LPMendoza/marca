@@ -17,10 +17,11 @@
 
 <body>
 
-   <header class="container-fluid bg-white">
+   <!--Menú fixed en top solo desplegado en large screen-->
+   <header class="container-fluid bg-white sticky-top d-none d-lg-block">
+      <!--Menú blanco-->
       <nav class="navbar navbar-expand-lg navbar-light bg-white ">
          
-
          <div class="collapse navbar-collapse row" id="navbarSupportedContent">
             <ul class="navbar-nav ">
                <li class="nav-item pr-4">
@@ -67,6 +68,7 @@
          </div>
 
       </nav>
+      <!--Menú Rojo-->
       <nav class="navbar navbar-expand-lg navbar-light bg-danger px-4 py-1 row">
 
          <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -117,6 +119,190 @@
          </div>
 
       </nav>
+   </header>
+   <!--Menú Gris de los Equipos-->
+   <nav class="navbar navbar-expand-lg px-2 py-0 row text-center d-none d-lg-block" style="background: #eee">
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://peoplepng.com/wp-content/uploads/2019/06/escudo-del-america-png-2.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Club_Atlas.PNG" width="28" height="28"
+                     class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos/11220/11220.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_Deportivo_Cruz_Azul.png"
+                     width="28" height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://www.logospng.com/images/18/chivas-usa-wikipedia-18348.png" width="28" height="28"
+                     class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos/11790/11790.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos/41/41.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Club_Necaxa_2.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos/63/63.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/an/3/31/Puebla_FC.png" width="28" height="28"
+                     class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://seeklogo.com/images/P/pumas-unam-logo-711FD8513B-seeklogo.com.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://cdn2.mediotiempo.com/uploads/media/2019/05/08/escudos-liga-mx-queretaro-1.png"
+                     width="28" height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img
+                     src="https://freelogovector.net/wp-content/uploads/logo-images-9/club-santos-laguna-logo-vector-54747.png"
+                     width="28" height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img
+                     src="https://static.mediotiempo.com//bs/mt/sports/production/soccer/teams/29ed3279-3488-44e7-b15b-ac1dcf363d3c.png"
+                     width="28" height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://cdn2.mediotiempo.com/uploads/media/2019/05/08/escudos-liga-mx-xolos-1.png"
+                     width="28" height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Toluca_fc_escdo.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+               <li class="nav-item dropdown py-1 ml-lg-4">
+                  <img src="https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos/11242/11242.png" width="28"
+                     height="28" class="d-inline-block align-top " alt="">
+               </li>
+
+            </ul>
+         </div>
+   </nav>
+
+   <!--Menú solo desplegado en medium screen y menores-->
+   <header class="container-fluid bg-white d-lg-none d-block">
+      <!--Menú blanco-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+         
+         <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+               <li class="nav-item pr-4">
+                  <a class="nav-link font-weight-bold text-dark ml-lg-2" href="#">
+                     <img src="https://e00-marca.uecdn.es/assets/v16/img/cuidateplus.svg" width="30" height="30"
+                        class="d-inline-block align-top" alt="">
+                     CuídatePlus
+                  </a>
+               </li>
+               <li class="nav-item border-left ">
+                  <a class="nav-link font-weight-bold text-dark" href="#">
+                     <img src="https://e00-marca.uecdn.es/assets/v16/img/trending.svg" width="30" height="30"
+                        class="d-inline-block align-top" alt="">
+                     Lo + trending
+                  </a>
+               </li>
+
+            </ul>
+         </div>
+
+         <div class="mx-lg-auto">
+            <img src="http://e00-co-marca.uecdn.es/claro/assets/v16/img/logo-marca.png" width="104" height="30"
+               class="d-inline-block align-top" alt="">
+            <img src="https://logodownload.org/wp-content/uploads/2014/02/claro-logo-8.png" width="84" height="30"
+               class="d-inline-block align-top" alt="">
+         </div>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         
+         <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+            
+            <form class="form-inline my-2 my-lg-0 ml-lg-auto mr-lg-2">
+               <select class="form-control form-control my-2 my-sm-0 mx-1 my-sm-0 border-light">
+                  <option>MX</option>
+               </select>
+               <button class="btn bg-danger text-white my-2 my-sm-0 mx-1 my-sm-0 font-weight-bold"
+                  type="submit">Subscríbete</button>
+               <button class="btn btn-outline-danger border-light my-2 my-sm-0 mx-1 my-sm-0 font-weight-bold"
+                  type="submit">Iniciar
+                  sesión</button>
+            </form>
+         </div>
+
+      </nav>
+      <!--Menú Rojo-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger px-4 py-1 row">
+
+         <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white font-weight-bold" href="#" id="navbarDropdown"
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Fútbol
+                  </a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white font-weight-bold" href="#" id="navbarDropdown"
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Fútbol Internacional
+                  </a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white font-weight-bold" href="#" id="navbarDropdown"
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Motor
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link dropdown-toggle text-white font-weight-bold" href="#" id="navbarDropdown"
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Otros deportes
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white font-weight-bold" href="#">
+                     Lima 2019
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white font-weight-bold" href="#">
+                     Resultados
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white font-weight-bold" href="#">
+                     Más +
+                  </a>
+               </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-auto">
+               <input class="form-control mr-sm-1" type="search" placeholder="Buscar en marca.com" aria-label="Search">
+            </form>
+         </div>
+
+      </nav>
+      <!--Menú Gris de los Equipos-->
       <nav class="navbar navbar-expand-lg px-2 py-0 row text-center" style="background: #eee">
 
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -197,6 +383,7 @@
       </nav>
    </header>
 
+   <!--Container del contenido-->
    <div class="container mt-4">
       <div class="row">
          <div class="container-fluid mb-4">
