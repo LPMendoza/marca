@@ -36,3 +36,8 @@ body::-webkit-scrollbar-thumb:hover {
 .btn-outline-danger:hover {
     background: #c00 !important;
 }
+
+.scrollable {
+    max-height: 640px;
+    overflow-y: auto;
+  }
