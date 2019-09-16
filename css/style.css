@@ -40,4 +40,5 @@ body::-webkit-scrollbar-thumb:hover {
 .scrollable {
     max-height: 640px;
     overflow-y: auto;
+    padding-bottom: 50px;
   }
