@@ -24,3 +24,11 @@ body::-webkit-scrollbar-thumb:hover {
 .esNoticia {
     font-size: 14px;
 }
+
+.bg-danger {
+    background: #c00 !important;
+}
+
+.btn-danger {
+    background: #c00 !important;
+} 
