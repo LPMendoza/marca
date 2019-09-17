@@ -38,11 +38,10 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .dropdown-menu {
-    max-height: 300px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .scrollable {
-    max-height: 80%;
     overflow-y: scroll;
+    max-height: 90vh;
 }

@@ -201,7 +201,7 @@
    </header>
 
    <!--Menú solo desplegado en medium screen y menores-->
-   <header class="container-fluid bg-white d-lg-none d-block">
+   <header class="container-fluid bg-white d-lg-none d-block scrollable sticky-top">
       <!--Menú blanco-->
       <nav class="navbar navbar-expand-lg navbar-light bg-white ">
          <div class="px-0">
@@ -223,6 +223,10 @@
                <select class="form-control form-control my-2 my-sm-0 mx-1 my-sm-0 border-light">
                   <option>MX</option>
                </select>
+               
+            <form class="form-inline my-2 my-lg-0 ml-auto border-light">
+               <input class="form-control mx-1" type="search" placeholder="Buscar en marca.com" aria-label="Search">
+            </form>
             </form>
          </div>
 
@@ -378,9 +382,6 @@
                   </div>
                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ml-auto">
-               <input class="form-control mr-sm-1" type="search" placeholder="Buscar en marca.com" aria-label="Search">
-            </form>
          </div>
 
       </nav>
@@ -396,7 +397,7 @@
    </header>
 
    <!--Container del contenido-->
-   <div class="container-fluid mt-4">
+   <div class="container-fluid mt-4" >
       <div class="row">
          <!--SideBanner-->
          <div class="p-0 ml-0 mr-md-3 d-none d-md-block">
