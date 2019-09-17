@@ -43,6 +43,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .scrollable {
-    max-height: 800px;
+    max-height: 80%;
     overflow-y: scroll;
 }
