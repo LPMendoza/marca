@@ -36,3 +36,13 @@ body::-webkit-scrollbar-thumb:hover {
 .btn-outline-danger:hover {
     background: #c00 !important;
 }
+
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.scrollable {
+    max-height: 800px;
+    overflow-y: scroll;
+}
