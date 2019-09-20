@@ -43,5 +43,5 @@ body::-webkit-scrollbar-thumb:hover {
 
 .scrollable {
     overflow-y: scroll;
-    max-height: 90vh;
+    max-height: 100vh;
 }
