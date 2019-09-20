@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto' !important;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+body::-webkit-scrollbar {
+    background: rgba(0, 0, 0, 0);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #df4141;
+}
+
+.esNoticia {
+    font-size: 14px;
+}
+
+.bg-danger {
+    background: #c00 !important;
+}
+
+.btn-danger {
+    background: #c00 !important;
+} 
+
+.btn-outline-danger:hover {
+    background: #c00 !important;
+}
+
+.dropdown-menu {
+    overflow-y: auto;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    max-height: 100vh;
+}
